@@ -5,12 +5,14 @@
 }
 
 .background {
-	width: auto;
 	height: 100%;
 	z-index: 0;
 	position: fixed;
 	top:0;
 	left:0;
+	right: 0;
+	bottom: 0;
+	
 }
 .row {
 	margin-left: 0;
@@ -32,12 +34,22 @@ body {
 	overflow: hidden;
 }
 
-@media (min-width: @screen-sm-min) {
-	
+@media only screen and (min-width: 480px) {
+	.background {
+		width: auto;
+	}
 }
 
-@media (min-width: @screen-md-min) {
-	
+@media only screen and (min-width: 992px) {
+	.background {
+		width: auto;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.background {
+		width: 100%;
+	}
 }
 															/*HEADER CONTROLS*/
 .headerRow {
