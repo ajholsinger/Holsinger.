@@ -1,0 +1,84 @@
+														/* GLOBAL CONTROLS */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.background {
+	width: auto;
+	height: 100%;
+	z-index: 0;
+	position: fixed;
+	top:0;
+	left:0;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+a {
+	text-decoration: none;
+	color: #00ffba;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	overflow: hidden;
+}
+
+@media (min-width: @screen-sm-min) {
+	
+}
+
+@media (min-width: @screen-md-min) {
+	
+}
+															/*HEADER CONTROLS*/
+.headerRow {
+	border: 0!important;
+}
+
+.header {
+	background-color: #3e3e3;
+	text-align: center;
+	height: 15%;
+	width: 100%;
+	border: none;
+}
+
+.devH {
+	display: flex;
+	margin: 0 auto;
+	padding: 0 auto;
+	align-items: center;
+}
+
+.himage {
+	height: 115px;
+	margin: 10px;
+	width: auto;
+}
+
+.design {
+	color: #00ffba;
+	margin: 0 auto;
+	width: 30%;
+}
+
+.development {
+	color: #00ffba;
+	margin: 0 auto;
+	width: 30%;
+}
+
+														/* BODY CONTROLS */
+.body {
+	background-color: #e1e1e1;
+	color: black;
+}
