@@ -51,6 +51,12 @@ body {
 		width: 100%;
 	}
 }
+
+@media only screen and (min-width: 1600px) {
+	.background {
+		width: 100%;
+	}
+}
 															/*HEADER CONTROLS*/
 .headerRow {
 	border: 0!important;
