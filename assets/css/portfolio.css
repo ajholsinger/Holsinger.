@@ -92,3 +92,45 @@ body {
 	margin-top: -125px;
 	margin-left: 75px;
 }
+
+															/*CARDS CONTROLS*/
+.card {
+	margin: 30px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	float: left;
+	border: 1px white solid;
+}
+
+#api-card {
+	color: white;
+	padding: 20px;
+	top: 160px;
+	position: relative;
+	z-index: 1;
+}
+
+.apiBG {
+	height: 250px;
+	width: 250px;
+	position: relative;
+	bottom: 100px;
+	z-index: 0;
+}
+
+#color-card {
+	color: white;
+	padding: 10px;
+	top: 165px;
+	position: relative;
+	z-index: 1;
+}
+
+.colorsBG {
+	height: 230px;
+	width: 230px;
+	position: relative;
+	bottom: 75px;
+	z-index: 0;
+}
