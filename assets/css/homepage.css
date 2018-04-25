@@ -147,16 +147,13 @@ body {
 
 .cards {
 	margin: 0 auto;
-	display: inline-block;
-	align-items: center;
-	align-content: center;
 	text-align: center;
-	position: absolute;
-	left: 30%;
+	margin-right: auto;
+	maring-left: auto;
 }
 #cards {
-	display: inline-block;
 	font-size: 35px;
+	displaY: inline-block;
 	border: 1px solid white;
 	color: white;
 	padding: 20px;
