@@ -28,6 +28,11 @@ a:hover {
 	text-decoration: none;
 	font-size: 35px;
 }
+
+a:active {
+	text-decoration: none;
+	
+}
 body {
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
@@ -85,6 +90,12 @@ body {
 	width: auto;
 }
 
+.portfolio {
+	color: #00ffba;
+	width: 200px;
+	height: 115px;
+	padding-top: 30px;
+}
 .design {
 	color: #00ffba;
 	margin: 0 auto;
@@ -136,18 +147,20 @@ body {
 
 .cards {
 	margin: 0 auto;
-	display: flex;
-	justify-content: center;
+	display: inline-block;
 	align-items: center;
-	overflow: hidden;
+	align-content: center;
+	text-align: center;
+	position: absolute;
+	left: 30%;
 }
 #cards {
-	display: inline;
+	display: inline-block;
 	font-size: 35px;
 	border: 1px solid white;
 	color: white;
-	width: 200px;
 	padding: 20px;
+	width: 200px;
 	text-align: center;
 	margin-top: 10%;
 	margin: 20px;
@@ -155,8 +168,9 @@ body {
 .quote {
 	color: #00ffba;
 }
-.cards a:hover {
-	font-size: 45px;
+.cards a:hover * {
+	font-size: 40px;
+	margin: 10px;
 	background-color: #00ffba;
 	color: black;
 }

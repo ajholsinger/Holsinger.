@@ -1,0 +1,94 @@
+														/* GLOBAL CONTROLS */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.background {
+	height: 100%;
+	z-index: 0;
+	position: fixed;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+a {
+	text-decoration: none;
+	color: #00ffba;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+a:active {
+	text-decoration: none;
+	color: #00ffba;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 480px) {
+	.background {
+		width: auto;
+		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.background {
+		width: auto;
+		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.background {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.background {
+		width: 100%;
+	}
+}
+															/*HEADER CONTROLS*/
+.headerRow {
+	border: 0;
+}
+
+.header {
+	background-color: #3e3e3;
+	height: 15%;
+	width: 100%;
+	border: none;
+	margin-top: 25px;
+}
+
+.himage {
+	height: 115px;
+	margin: 10px;
+	width: auto;
+}
+
+.portfolio {
+	color: #00ffba;
+	width: 200px;
+	height: 115px;
+	padding-top: 40px;
+	text-align: center;
+	margin-top: -125px;
+	margin-left: 75px;
+}
