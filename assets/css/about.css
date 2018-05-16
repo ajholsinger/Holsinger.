@@ -3,7 +3,8 @@
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   padding: 0 auto;
-}
+};
+
 .background {
 	height: 100%;
 	z-index: 0;
@@ -19,58 +20,58 @@
 		width: auto;
 		height: 100%;
 	}
-}
+};
 
 @media only screen and (min-width: 992px) {
 	.background {
 		width: auto;
 		height: 100%;
 	}
-}
+};
 
 @media only screen and (min-width: 1400px) {
 	.background {
 		width: 100%;
 	}
-}
+};
 
 @media only screen and (min-width: 1600px) {
 	.background {
 		width: 100%;
 	}
-}
+};
 
 															/*HEADER CONTROLS*/
 .headerRow {
 	border: 0;
-}
+};
 
 .header {
-	background-color: #3e3e3;
 	text-align: center;
 	height: 15%;
 	width: 100%;
 	border: none;
-}
+};
 
 .himage {
 	height: 115px;
 	margin: 10px;
   width: auto;
-}
+};
       /*BODY CONTROLS*/
 .body-content {
   margin-top: 100px;
-}
+};
+
 .irlphoto {
   border: 1px solid white;
-}
+};
 
 .bodyh1 {
   color: white;
   font-size: 45px;
   text-align: right;
-}
+};
 
 .bodyh3 {
   color: white;
