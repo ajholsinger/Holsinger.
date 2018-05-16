@@ -76,7 +76,7 @@
 .bodyh1 {
   color: black;
   font-size: 45px;
-  background-color: rgb(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .5);
   padding: 10px;
   margin-top: 0;
 }
@@ -84,7 +84,7 @@
 .bodyh3 {
   color: black;
   font-size: 25px;
-  background-color: rgb(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .5);
   padding: 5px;
   width: 200px;
   float: right;
@@ -96,5 +96,5 @@
   margin-top: 15px;
   color: black;
   font-size: 25px;
-  background-color: rgb(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .5);
 }
