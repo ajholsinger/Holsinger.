@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+a:active {
+	text-decoration: none;
+}
+
 .background {
 	height: 100%;
 	z-index: 0;
@@ -12,7 +16,6 @@
 	left:0;
 	right: 0;
 	bottom: 0;
-	
 }
 .row {
 	margin-left: 0;
@@ -164,10 +167,13 @@ body {
 }
 .quote {
 	color: #00ffba;
+	padding: 0 auto;
+	text-align: center;
 }
 .cards a:hover * {
-	font-size: 40px;
+	font-size: 30px;
 	margin: 10px;
+	text-align: center;
 	background-color: #00ffba;
 	color: black;
 }
