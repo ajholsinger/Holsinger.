@@ -67,22 +67,33 @@
   border: 1px solid white;
 }
 
+.hh {
+  text-align: right;
+  width: 365px;
+  float: right;
+}
+
 .bodyh1 {
   color: white;
   font-size: 45px;
-  text-align: right;
+  background-color: rgb(255, 255, 255, .3);
+  padding: 10px;
 }
 
 .bodyh3 {
   color: white;
-  text-align: right;
   font-size: 25px;
+  background-color: rgb(255, 255, 255, .3);
+  padding: 5px;
+  width: 200px;
+  float: right;
+  margin-top: 15px;
 }
 
 .description {
-  border: 2px solid white;
   padding: 15px;
-  margin-top: 25px;
+  margin-top: 15px;
   color: white;
   font-size: 25px;
+  background-color: rgb(255, 255, 255, .3);
 }
