@@ -26,7 +26,7 @@
 	.background {
 		width: auto;
 		height: 100%;
-	}
+  }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -61,6 +61,7 @@
       /*BODY CONTROLS*/
 .body-content {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .irlphoto {
@@ -103,6 +104,9 @@
   text-align: center;
   background-color: rgba(255, 255, 255, .5);
   color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .lang-images {
@@ -112,4 +116,8 @@
 #html5, #css3, #java, #boot, #firebase, #jquery {
   height: 100px;
   width: auto;
+}
+
+.exp {
+  font-size: 35px;
 }
