@@ -1,0 +1,3 @@
+Green - #00ffba
+Black - #191919
+White - #ffffff
