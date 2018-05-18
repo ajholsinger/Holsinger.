@@ -15,17 +15,26 @@
   bottom: 0;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 990px) {
 	.background {
 		width: auto;
 		height: 100%;
-	}
+  }
+  .languages {
+    position: absolute;
+    right: 25%;
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
 	.background {
 		width: auto;
 		height: 100%;
+  }
+  .languages {
+    position: absolute;
+    right: 25%;
   }
 }
 

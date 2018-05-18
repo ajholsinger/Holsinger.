@@ -4,10 +4,6 @@
 	padding: 0;
 }
 
-a:active {
-	text-decoration: none;
-}
-
 .background {
 	height: 100%;
 	z-index: -1;
@@ -21,52 +17,22 @@ a:active {
 	margin-left: 0;
 	margin-right: 0;
 }
+
 a {
 	text-decoration: none;
 	color:white;
 }
 
 a:hover {
-	color: white;
 	text-decoration: none;
-	font-size: 35px;
+	color: white;
 }
 
-a:active {
-	text-decoration: none;
-	
-}
 body {
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
-	overflow: hidden;
 }
 
-@media only screen and (min-width: 480px) {
-	.background {
-		width: auto;
-		height: 100%;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.background {
-		width: auto;
-		height: 100%;
-	}
-}
-
-@media only screen and (min-width: 1400px) {
-	.background {
-		width: 100%;
-	}
-}
-
-@media only screen and (min-width: 1600px) {
-	.background {
-		width: 100%;
-	}
-}
 															/*HEADER CONTROLS*/
 .headerRow {
 	border: 0;
@@ -139,7 +105,7 @@ body {
 	display: block;
 	text-align: center;
 	position: relative;
-	left: 35px;
+	left: 60px;
 }
 
 .dot {
@@ -149,31 +115,60 @@ body {
 																												/*CARDS*/
 
 .cards {
-	margin: 0 auto;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 25px;
+	position: relative;
 }
-#cards {
-	font-size: 35px;
-	displaY: inline-block;
-	border: 1px solid white;
-	color: white;
-	padding: 20px;
-	width: 200px;
-	text-align: center;
-	margin-top: 10%;
-	margin: 20px;
+
+.card1 {
+	position: absolute;
+	left: 20%;
 }
-.quote {
-	color: #00ffba;
-	padding: 0 auto;
+
+.card1image {
+	height: 400px;
+	width: auto;
+	position: absolute;
+}
+
+.card1h3 {
+	font-size: 25px;
+	background-color: rgba(255, 255, 255, .4);
+	position: absolute;
+	width: 266.66px;
 	text-align: center;
 }
-.cards a:hover * {
-	font-size: 30px;
-	margin: 10px;
-	text-align: center;
-	background-color: #00ffba;
-	color: black;
+																								/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+	.background {
+		width: auto;
+		height: 100%;
+	}
+
+	.card1 {
+		left: 3%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+	.background {
+		width: auto;
+		height: 100%;
+	}
+
+	.card1 {
+		left: 3%;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.background {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.background {
+		width: 100%;
+	}
 }
