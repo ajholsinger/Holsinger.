@@ -31,6 +31,12 @@ a:hover {
 body {
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.section1, .section2 {
+	height: 100vh;
 }
 
 															/*HEADER CONTROLS*/
@@ -44,7 +50,6 @@ body {
 	width: 100%;
 	border: none;
 	margin-top: 10px;
-	/*background-color: rgba(255, 255, 255, .6);*/
 }
 
 .devH {
@@ -77,8 +82,7 @@ body {
 	margin: 0 auto;
 	width: 30%;
 }
-
-														/* BODY CONTROLS */
+														/* JUMBO CONTROLS */
 .jumbo {
 	background-color: rgba(255, 255, 255, .4);
 	color: black;
@@ -112,41 +116,92 @@ body {
 	color: #00ffba;
 
 }
-																												/*CARDS*/
 
-.cards {
-	margin: 25px;
-	position: relative;
+																						/*MEET DEVELOPER CONTROLS*/
+.section2 {
+	height: 95vh;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
-.card1 {
-	position: absolute;
-	left: 20%;
-}
-
-.card1image {
-	height: 400px;
-	width: auto;
-	position: absolute;
-}
-
-.card1h3 {
-	font-size: 25px;
-	background-color: rgba(255, 255, 255, .4);
-	position: absolute;
-	width: 266.66px;
+.p-and-p {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 20px;
 	text-align: center;
+}
+.irlphoto {
+	border: 1px solid white;
+	padding: 0;
+}
+
+.hh {
+  text-align: right;
+  width: 365px;
+  float: right;
+}
+
+.bodyh1 {
+  color: black;
+  font-size: 45px;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.bodyh3 {
+  color: black;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 5px;
+  width: 200px;
+  float: right;
+  margin-top: 15px;
+}
+
+.description {
+  padding: 15px;
+  margin-top: 15px;
+  color: black;
+	font-size: 25px;
+	height: auto;
+}
+
+.languages {
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+  background-color: rgba(255, 255, 255, .5);
+  color: black;
+  padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.lang-images {
+  display: inline-block;
+}
+
+#html5, #css3, #java, #boot, #firebase, #jquery, #node {
+  height: 100px;
+  width: auto;
+}
+
+.exp {
+  font-size: 35px;
 }
 																								/*MEDIA QUERIES*/
 
-@media only screen and (min-width: 480px) and (max-width: 991px) {
+@media only screen and (min-width: 480px) and (max-width: 990px) {
 	.background {
 		width: auto;
 		height: 100%;
+  }
+  .languages {
+    margin-top: 30px;
+    width: 100%;
 	}
 
-	.card1 {
-		left: 3%;
+	.section2 {
+		height: 90vh;
 	}
 }
 
@@ -154,10 +209,14 @@ body {
 	.background {
 		width: auto;
 		height: 100%;
+  }
+  .languages {
+		margin-top: 30px;
+		width: 100%;
 	}
-
-	.card1 {
-		left: 3%;
+	
+	.section2 {
+		height: 90vh;
 	}
 }
 
