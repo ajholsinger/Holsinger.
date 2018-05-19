@@ -55,7 +55,7 @@ body {
 }
 
 .himage {
-	height: 115px;
+	height: 100px;
 	margin: 10px;
 	width: auto;
 }
@@ -63,7 +63,7 @@ body {
 .portfolio {
 	color: #00ffba;
 	width: 200px;
-	height: 115px;
+	height: 100px;
 	padding-top: 30px;
 }
 .design {
