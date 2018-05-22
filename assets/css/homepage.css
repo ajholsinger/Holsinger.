@@ -188,15 +188,15 @@ body {
   font-size: 35px;
 }
 
-		/*CARD CONTROLS*/
+																																					/*CARD CONTROLS*/
 .cards {
+	margin: 0 auto;
 	height: 75vh;
 	text-align: center;
-	margin: 0 auto;
+	display: none;
 }
 
 .card1 {
-	margin: 0 auto;
 	height: 600px;
 	padding: 50px;
 	width: 300px;
@@ -207,7 +207,6 @@ body {
 }
 
 .card2 {
-	margin: 0 auto;
 	height: 600px;
 	padding: 50px;
 	width: 300px;
@@ -218,7 +217,6 @@ body {
 }
 
 .card3 {
-	margin: 0 auto;
 	height: 600px;
 	padding: 50px;
 	width: 300px;
@@ -242,6 +240,10 @@ body {
 	.section2 {
 		height: 90vh;
 	}
+
+	.cards {
+		display: inline-block;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
@@ -256,6 +258,10 @@ body {
 	
 	.section2 {
 		height: 90vh;
+	}
+
+	.cards {
+		display: inline-block;
 	}
 }
 
