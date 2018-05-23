@@ -75,7 +75,7 @@ body {
 }
 														/* JUMBO CONTROLS */
 .jumbo {
-	background-color: rgba(255, 255, 255, .4);
+	background-color: rgba(255, 255, 255, .6);
 	color: black;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .p-and-p {
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .7);
 	padding: 20px;
 	margin: 15px;
 	margin-bottom: 0px;
@@ -214,18 +214,23 @@ body {
 	height: 600px;
 	padding: 50px;
 	width: 300px;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .7);
 	text-align: center;
 	margin: 7px;
 	font-size: 35px;
 }
 
 																								/*What is Holsingerdot CONTROLS*/
-.aboutHdot {
+.section3 {
 	height: 100vh;
 	margin: 0 auto;
 	padding: 0 auto;
-	background-color: rgba(255, 255, 255, .5)
+}
+.aboutHdot {
+	height: auto;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: rgba(255, 255, 255, .7)
 }
 
 .what-is {
@@ -240,12 +245,20 @@ body {
 .services {
 	display: inline;
 }
+
+.servicesTitle {
+	font-size: 40px;
+}
 .servicesh2 {
 	font-size: 55px;
 	text-align: center;
 }
 .servicequote {
 	font-size: 25px;
+}
+
+.services p {
+	font-size: 20px;
 }
 
 .serviceCard {
@@ -276,6 +289,11 @@ body {
 
 	.cards {
 		display: inline-block;
+	}
+
+	.services p {
+		font-size: 25px;
+		font-weight: 400;
 	}
 }
 
