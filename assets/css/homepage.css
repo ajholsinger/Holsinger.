@@ -64,22 +64,14 @@ body {
 	width: auto;
 }
 
-.portfolio {
-	color: #00ffba;
-	width: 200px;
-	height: 100px;
-	padding-top: 30px;
-}
 .design {
 	color: white;
 	margin: 0 auto;
-	width: 30%;
 }
 
 .development {
 	color: white;
 	margin: 0 auto;
-	width: 30%;
 }
 														/* JUMBO CONTROLS */
 .jumbo {
@@ -118,7 +110,7 @@ body {
 
 																						/*MEET DEVELOPER CONTROLS*/
 .section2 {
-	height: 95vh;
+	height: 100vh;
 	margin: 0 auto;
 	padding: 0 auto;
 }
@@ -126,6 +118,8 @@ body {
 .p-and-p {
 	background-color: rgba(255, 255, 255, .5);
 	padding: 20px;
+	margin: 15px;
+	margin-bottom: 0px;
 	text-align: center;
 }
 .irlphoto {
@@ -225,6 +219,27 @@ body {
 	margin: 7px;
 	font-size: 35px;
 }
+
+																								/*What is Holsingerdot CONTROLS*/
+.aboutHdot {
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: rgba(255, 255, 255, .5)
+}
+
+.what-is {
+	font-size: 35px;
+	padding: 20px;
+}
+
+.HdotDesc {
+	font-size: 25px;
+}
+
+.services {
+	text-align: center;
+}
 																								/*MEDIA QUERIES*/
 
 @media only screen and (min-width: 480px) and (max-width: 990px) {
@@ -238,7 +253,7 @@ body {
 	}
 
 	.section2 {
-		height: 90vh;
+		height: 100vh;
 	}
 
 	.cards {
@@ -257,7 +272,7 @@ body {
 	}
 	
 	.section2 {
-		height: 90vh;
+		height: 100vh;
 	}
 
 	.cards {
