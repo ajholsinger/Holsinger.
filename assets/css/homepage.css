@@ -229,16 +229,34 @@ body {
 }
 
 .what-is {
-	font-size: 35px;
+	font-size: 55px;
 	padding: 20px;
 }
 
 .HdotDesc {
-	font-size: 25px;
+	font-size: 35px;
 }
 
 .services {
+	display: inline;
+}
+.servicesh2 {
+	font-size: 55px;
 	text-align: center;
+}
+.servicequote {
+	font-size: 25px;
+}
+
+.serviceCard {
+	height: auto;
+	width: 410px;
+	background-color: rgba(255, 255, 255, .5);
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+	margin: 25px;
+	padding: 10px;
 }
 																								/*MEDIA QUERIES*/
 
